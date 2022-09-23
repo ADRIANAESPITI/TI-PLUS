@@ -1,4 +1,3 @@
-from HOSPITAL_CASA.hospitalAPP.viewsets import FamiliarViewset
 from hospitalAPP.viewsets import PacienteViewset, FamiliarViewset, MedicoViewset, AuxiliarViewset, Historia_clinicaViewset, Signos_vitalesViewset, SugerenciaViewset, AsignacionViewset
 from rest_framework import routers
 
