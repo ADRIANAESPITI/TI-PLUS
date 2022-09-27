@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from hospitalAPP.models import Asignacion, Auxiliar, Familiar, Historia_clinica, Medico, Paciente, Signos_vitales, Sugerencia
+from hospitalApp.models import Asignacion, Auxiliar, Familiar, Historia_clinica, Medico, Paciente, Signos_vitales, Sugerencia
 
 admin.site.register(Paciente)
 admin.site.register(Familiar)

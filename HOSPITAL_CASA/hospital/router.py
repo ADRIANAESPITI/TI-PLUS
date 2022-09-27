@@ -1,4 +1,4 @@
-from hospitalAPP.viewsets import PacienteViewset, FamiliarViewset, MedicoViewset, AuxiliarViewset, Historia_clinicaViewset, Signos_vitalesViewset, SugerenciaViewset, AsignacionViewset
+from hospitalApp.viewsets import PacienteViewset, FamiliarViewset, MedicoViewset, AuxiliarViewset, Historia_clinicaViewset, Signos_vitalesViewset, SugerenciaViewset, AsignacionViewset
 from rest_framework import routers
 
 router=routers.DefaultRouter()

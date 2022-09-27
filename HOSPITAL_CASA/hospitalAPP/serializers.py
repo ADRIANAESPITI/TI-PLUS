@@ -1,6 +1,6 @@
 from dataclasses import fields
 from rest_framework import serializers
-from hospitalAPP.models import Asignacion, Auxiliar, Familiar, Historia_clinica, Medico, Paciente, Signos_vitales, Sugerencia
+from hospitalApp.models import Asignacion, Auxiliar, Familiar, Historia_clinica, Medico, Paciente, Signos_vitales, Sugerencia
 
 class PacienteSerializer(serializers.ModelSerializer):
     class Meta:
